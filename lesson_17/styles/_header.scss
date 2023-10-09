@@ -1,0 +1,30 @@
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0;
+    margin-bottom: 54px;
+    .navbar{
+        .header_nav_menu{
+            display: flex;
+            gap: 40px;
+            .header_nav_item{
+                font-family: Hind Siliguri;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 23px;
+                color: $primariy_color;
+                .header_nav_link{
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                }
+            }
+        }
+    }
+    .header_icons{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+}

@@ -1,0 +1,60 @@
+.about_section{
+    margin-bottom: 125px;
+    background: #F4F9FC;
+    .about_container{
+        padding: 84px 0 98px;
+        position: relative;
+        h4{
+            font-family: Hind Siliguri;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 23px;
+            letter-spacing: 0.145em;
+            color:#C72535;
+            text-transform: uppercase;
+            position: absolute;
+            top: -120px;
+            left: 650px;
+        }
+        h1{
+            font-family: Hind Siliguri;
+            font-size: 44px;
+            font-weight: 600;
+            line-height: 71px;
+            color:  #030D15;
+            position: absolute;
+            top: -100px;
+            left: 650px;
+        }
+        > img{
+            position: absolute;
+            top: -220px;
+            left: -120px;
+        }
+        .about_info{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding-left: 650px;
+            p{
+                font-family: Hind Siliguri;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                opacity: 60%;
+                margin-bottom: 40px;
+            }
+            .checkbox{
+                display: flex;  
+                gap: 13px;
+                h3{
+                    font-family: Hind Siliguri;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 27px;
+                    color: $primariy_color;
+                }
+            }
+        }
+    }
+}

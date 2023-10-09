@@ -1,0 +1,48 @@
+.camera_container{
+    margin-bottom: 270px;
+    .camera_card{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        .camera_box{
+            position: relative;
+            width: 555px;
+            height: 296px;
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+            linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+            border: 1px solid #0000001A;
+            color: #E6EDF2;
+            text-transform: uppercase;
+            padding: 75px 0 75px 35px;
+            h3{
+                font-family: Hind Siliguri;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 27px;
+                opacity: 60%;
+            }
+            h1{
+                font-family: Hind Siliguri;
+                font-size: 31px;
+                font-weight: 600;
+                line-height: 40px;
+                margin: 5px 0 7px;
+            }
+            p{
+                font-family: Hind Siliguri;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 27px;  
+            }
+            img{
+                position: absolute;
+                top: -20px;
+                left: 240px;
+            }
+            .camera_img{
+                top: 30px;
+                left: 260px;
+            }
+        }
+    }
+}

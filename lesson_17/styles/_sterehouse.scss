@@ -1,0 +1,74 @@
+.sterehouse_container{
+    margin-bottom: 130px;
+    h4{
+        font-family: Hind Siliguri;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: 0.145em;
+        text-align: center;
+        color: #C72535;
+    }
+    h1{
+        font-family: Hind Siliguri;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 71px;
+        text-align: center;
+        color: $primariy_color;
+        margin: 10px 0;
+    }
+    > p{
+        font-family: Hind Siliguri;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .sterehouse_card{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        .sterehouse_row_1{
+            display: grid;
+            grid-template-rows: auto;
+            gap: 30px;
+            .sterehouse_row_box{
+                padding: 35px;
+                border: 1px solid #0000001A;
+                .popular_icons{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                }
+                .price_info{
+                    display: flex;
+                    .original_price{
+                        font-family: Hind Siliguri;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 27px;
+                        color: $primariy_color;
+                    }
+                    .current_price{
+                        font-family: Hind Siliguri;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 27px;      
+                        color: $primariy_color;
+                        opacity: 50%;                
+                    }
+                }
+            }
+        }
+        .sterehouse_row_2{
+            display: grid;
+            gap: 30px;
+        }
+        .sterehouse_row_3{
+            display: grid;
+            gap: 30px;  
+        }
+    }
+}

@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Post No Bills Jaffna";
+    src: url(/fonts/PostNoBillsJaffna/PostNoBillsJaffna-SemiBold.ttf) format(trutype);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(/fonts/Raleway/Raleway-Regular.ttf) format(trutype);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url(/fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf) format(trutype);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(/fonts/Roboto/Roboto-Light.ttf) format(trutype);
+    font-weight: 300;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.container{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+    gap: 435px;
+}
+
+.header_title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.header_title h1{
+    font-family: Post No Bills Jaffna;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #000;
+}
+
+.header_title p {
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.12em;
+}
+
+.header_nav_menu{
+    display: flex;
+    gap: 40px;
+}
+
+.header_nav_item{
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+}

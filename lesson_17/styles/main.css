@@ -1,0 +1,639 @@
+@font-face {
+  font-family: "Hind Siliguri";
+  src: url(/fonts/HindSiliguri-Bold.ttf) format(truetype);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Hind Siliguri";
+  src: url(/fonts/HindSiliguri-SemiBold.ttf) format(truetype);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Hind Siliguri";
+  src: url(/fonts/HindSiliguri-Medium.ttf) format(truetype);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Hind Siliguri";
+  src: url(/fonts/HindSiliguri-Regular.ttf) format(truetype);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Hind Siliguri";
+  src: url(/fonts/HindSiliguri-Light.ttf) format(truetype);
+  font-weight: 300;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 0;
+  margin-bottom: 54px;
+}
+.header_container .navbar .header_nav_menu {
+  display: flex;
+  gap: 40px;
+}
+.header_container .navbar .header_nav_menu .header_nav_item {
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #030D15;
+}
+.header_container .navbar .header_nav_menu .header_nav_item .header_nav_link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.header_container .header_icons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.home_container {
+  position: relative;
+  margin-bottom: 110px;
+}
+.home_container h4 {
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.145em;
+  color: #C72535;
+  text-transform: uppercase;
+  padding: 75px 0 3px;
+}
+.home_container .home_blue_title {
+  color: #247CC0;
+  font-family: Hind Siliguri;
+  font-size: 61px;
+  font-weight: 600;
+  line-height: 73px;
+}
+.home_container .home_title {
+  font-family: Hind Siliguri;
+  font-size: 61px;
+  font-weight: 400;
+  line-height: 73px;
+  color: #030D15;
+}
+.home_container p {
+  font-family: Hind Siliguri;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #030D15;
+  margin: 29px 0 36px;
+}
+.home_container .home_price {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.home_container .home_price button {
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  padding: 16px 35px;
+  border: none;
+  background-color: #247CC0;
+  color: #fff;
+}
+.home_container .home_price .original_price {
+  font-family: Hind Siliguri;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #030D15;
+}
+.home_container .home_price .current_price {
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 27px;
+  opacity: 50%;
+  color: #030D15;
+  text-decoration: line-through;
+}
+.home_container .home_brands {
+  display: flex;
+  justify-content: center;
+  gap: 84px;
+  box-shadow: 0px -1.7396812439px 1.2053217888px 0px rgba(174, 174, 174, 0.0235294118);
+  box-shadow: 0px 0.1900793463px 4.1434698105px 0px rgba(174, 174, 174, 0.031372549);
+  box-shadow: 0px 6.7721414566px 9.6133089066px 0px rgba(174, 174, 174, 0.0392156863);
+  box-shadow: 0px 19.8401012421px 19.1405620575px 0px rgba(174, 174, 174, 0.0470588235);
+  box-shadow: 0px 43.7509994507px 36.4414215088px 0px rgba(174, 174, 174, 0.0588235294);
+  box-shadow: 0px 100px 80px 0px rgba(174, 174, 174, 0.0784313725);
+  margin-top: 149px;
+}
+.home_container > img {
+  position: absolute;
+  left: 600px;
+  top: 0;
+}
+
+.standard_container {
+  margin-bottom: 138px;
+}
+.standard_container .standard_card {
+  display: flex;
+  gap: 37px;
+}
+.standard_container .standard_card .standard_box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.standard_container .standard_card .standard_box .absolute_cart {
+  position: absolute;
+  top: -20px;
+  left: 240px;
+}
+.standard_container .standard_card .standard_box .absolute_cart_second {
+  position: absolute;
+  top: -20px;
+  left: 240px;
+}
+.standard_container .standard_card .standard_box .standard_info h3 {
+  font-family: Hind Siliguri;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #030D15;
+}
+.standard_container .standard_card .standard_box .standard_info > p {
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #030D15;
+  opacity: 60%;
+  margin: 9px 0 20px;
+}
+.standard_container .standard_card .standard_box .standard_info .standart_price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.standard_container .standard_card .standard_box .standard_info .standart_price .original_price {
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #030D15;
+}
+.standard_container .standard_card .standard_box .standard_info .standart_price .current_price {
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 27px;
+  color: #030D15;
+  opacity: 50%;
+}
+
+.camera_container {
+  margin-bottom: 270px;
+}
+.camera_container .camera_card {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.camera_container .camera_card .camera_box {
+  position: relative;
+  width: 555px;
+  height: 296px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  color: #E6EDF2;
+  text-transform: uppercase;
+  padding: 75px 0 75px 35px;
+}
+.camera_container .camera_card .camera_box h3 {
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  opacity: 60%;
+}
+.camera_container .camera_card .camera_box h1 {
+  font-family: Hind Siliguri;
+  font-size: 31px;
+  font-weight: 600;
+  line-height: 40px;
+  margin: 5px 0 7px;
+}
+.camera_container .camera_card .camera_box p {
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 27px;
+}
+.camera_container .camera_card .camera_box img {
+  position: absolute;
+  top: -20px;
+  left: 240px;
+}
+.camera_container .camera_card .camera_box .camera_img {
+  top: 30px;
+  left: 260px;
+}
+
+.about_section {
+  margin-bottom: 125px;
+  background: #F4F9FC;
+}
+.about_section .about_container {
+  padding: 84px 0 98px;
+  position: relative;
+}
+.about_section .about_container h4 {
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.145em;
+  color: #C72535;
+  text-transform: uppercase;
+  position: absolute;
+  top: -120px;
+  left: 650px;
+}
+.about_section .about_container h1 {
+  font-family: Hind Siliguri;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 71px;
+  color: #030D15;
+  position: absolute;
+  top: -100px;
+  left: 650px;
+}
+.about_section .about_container > img {
+  position: absolute;
+  top: -220px;
+  left: -120px;
+}
+.about_section .about_container .about_info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 650px;
+}
+.about_section .about_container .about_info p {
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 60%;
+  margin-bottom: 40px;
+}
+.about_section .about_container .about_info .checkbox {
+  display: flex;
+  gap: 13px;
+}
+.about_section .about_container .about_info .checkbox h3 {
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #030D15;
+}
+
+.popular_container {
+  text-align: center;
+  margin-bottom: 146px;
+}
+.popular_container h4 {
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.145em;
+  color: #C72535;
+}
+.popular_container h1 {
+  font-family: Hind Siliguri;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 71px;
+  color: #030D15;
+  margin: 22px 0;
+}
+.popular_container .popular_menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.popular_container .popular_menu .popular_item {
+  text-transform: uppercase;
+}
+.popular_container .popular_menu .popular_item .popular_link {
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #030D15;
+  opacity: 60%;
+}
+.popular_container .popular_menu .popular_item .popular_link:hover {
+  color: #C72535;
+  text-shadow: 1px 1px 1px gray;
+}
+.popular_container .popular_card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 56px;
+}
+.popular_container .popular_card .popular_box {
+  position: relative;
+  text-align: left;
+  width: 360px;
+  height: 503px;
+  padding: 35px;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+.popular_container .popular_card .popular_box .procent_info {
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #030D15;
+}
+.popular_container .popular_card .popular_box h2 {
+  position: absolute;
+  bottom: 85px;
+  font-family: Hind Siliguri;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #030D15;
+}
+.popular_container .popular_card .popular_box > img {
+  border: none;
+}
+.popular_container .popular_card .popular_box .popular_icons {
+  display: flex;
+  justify-content: space-between;
+}
+.popular_container .popular_card .popular_box .price_info {
+  position: absolute;
+  bottom: 43px;
+  display: flex;
+  gap: 8px;
+  margin-top: 20px;
+}
+.popular_container .popular_card .popular_box .price_info .original_price {
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #030D15;
+}
+.popular_container .popular_card .popular_box .price_info .current_price {
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 27px;
+  color: #030D15;
+  opacity: 50%;
+}
+.popular_container .popular_card .popular_box .five_stars {
+  position: absolute;
+  bottom: 28px;
+  left: 0;
+  left: 35px;
+}
+.popular_container .popular_card .popular_box .keyboard {
+  margin-top: 55px;
+}
+.popular_container a {
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23px;
+  color: #030D15;
+}
+.popular_container a img {
+  margin-left: 10px;
+}
+
+.sterehouse_container {
+  margin-bottom: 130px;
+}
+.sterehouse_container h4 {
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.145em;
+  text-align: center;
+  color: #C72535;
+}
+.sterehouse_container h1 {
+  font-family: Hind Siliguri;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 71px;
+  text-align: center;
+  color: #030D15;
+  margin: 10px 0;
+}
+.sterehouse_container > p {
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.sterehouse_container .sterehouse_card {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.sterehouse_container .sterehouse_card .sterehouse_row_1 {
+  display: grid;
+  grid-template-rows: auto;
+  gap: 30px;
+}
+.sterehouse_container .sterehouse_card .sterehouse_row_1 .sterehouse_row_box {
+  padding: 35px;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+.sterehouse_container .sterehouse_card .sterehouse_row_1 .sterehouse_row_box .popular_icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sterehouse_container .sterehouse_card .sterehouse_row_1 .sterehouse_row_box .price_info {
+  display: flex;
+}
+.sterehouse_container .sterehouse_card .sterehouse_row_1 .sterehouse_row_box .price_info .original_price {
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #030D15;
+}
+.sterehouse_container .sterehouse_card .sterehouse_row_1 .sterehouse_row_box .price_info .current_price {
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 27px;
+  color: #030D15;
+  opacity: 50%;
+}
+.sterehouse_container .sterehouse_card .sterehouse_row_2 {
+  display: grid;
+  gap: 30px;
+}
+.sterehouse_container .sterehouse_card .sterehouse_row_3 {
+  display: grid;
+  gap: 30px;
+}
+
+.input_section {
+  background: #F4F9FC;
+}
+.input_section .input_container {
+  padding: 100px 0;
+}
+.input_section .input_container .input_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input_section .input_container .input_card .input_box {
+  position: relative;
+}
+.input_section .input_container .input_card .input_box h4 {
+  color: #C72535;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.145em;
+}
+.input_section .input_container .input_card .input_box h1 {
+  font-family: Hind Siliguri;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #030D15;
+  margin: 6px 0;
+}
+.input_section .input_container .input_card .input_box p {
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  opacity: 60%;
+}
+.input_section .input_container .input_card .input_box input {
+  width: 457px;
+  height: 50px;
+  padding: 15px 26px;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #030D15;
+  opacity: 40%;
+}
+.input_section .input_container .input_card .input_box button {
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23px;
+  padding: 13px 26px 14px 27px;
+  color: #fff;
+  background-color: #247CC0;
+  border: none;
+  position: absolute;
+  right: 0;
+}
+
+.footer {
+  background-color: #030D15;
+  color: #fff;
+}
+.footer .footer_container {
+  padding: 76px 0 56px;
+}
+.footer .footer_container .footer_card {
+  display: flex;
+  gap: 70px;
+}
+.footer .footer_container .footer_card .footer_box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+}
+.footer .footer_container .footer_card .footer_box .logo_info {
+  margin-top: 22px;
+}
+.footer .footer_container .footer_card .footer_box h3 {
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+}
+.footer .footer_container .footer_card .footer_box a {
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  opacity: 60%;
+}
+.footer .footer_container .footer_card .footer_box p {
+  opacity: 60%;
+  font-family: Hind Siliguri;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+}
+.footer .footer_container .footer_card .footer_box .footer_icons {
+  display: flex;
+  gap: 25px;
+}
+.footer .footer_container .footer_card .footer_box .footer_language {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.footer .footer_container .footer_card .footer_box .footer_language p {
+  opacity: 100%;
+}/*# sourceMappingURL=main.css.map */

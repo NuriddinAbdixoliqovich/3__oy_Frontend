@@ -1,0 +1,77 @@
+.test_container{
+    margin-bottom: 150px;
+    text-align: center;
+    h1{
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        color: $primary-color;
+    }
+    .test_btn{
+        padding: 14px 32px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        background-color: $secondary-color;
+        color: $white_color;
+        border: none;
+        border-radius: 5px;
+    }
+    .test_btn:hover{
+        background-color: $white_color;
+        color: $secondary-color;
+        transition: 0.2s all linear;
+        border: 1px solid #BCD0E5;
+    }
+}
+
+
+.test_card{
+    display: flex;
+    gap: 46px;
+    margin: 66px 0 34px;
+}
+
+.test_box{
+    width: 240px;
+
+}
+
+.test_box h3{
+    margin: 25px 0 12px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    color: $primary-color;
+}
+
+.test_box p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: $primary-color;
+}
+
+
+@media screen and (max-width: 768px) {
+    .test_card{
+        display: grid;
+        grid-template-columns: 240px 240px;
+        grid-template-rows: 240px 240px;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .test_card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

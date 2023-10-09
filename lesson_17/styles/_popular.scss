@@ -1,0 +1,122 @@
+.popular_container{
+    text-align: center;
+    margin-bottom: 146px;
+    h4{
+        font-family: Hind Siliguri;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: 0.145em;
+        color:  #C72535;
+    }
+    h1{
+        font-family: Hind Siliguri;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 71px;
+        color: $primariy_color;
+        margin: 22px 0;
+    }
+    .popular_menu{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-bottom: 50px;
+        .popular_item{
+            text-transform: uppercase;
+            .popular_link{
+                font-family: Hind Siliguri;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 23px;
+                color: $primariy_color;
+                opacity: 60%;
+            }
+            .popular_link:hover{
+                color: #C72535;
+                text-shadow: 1px 1px 1px gray;
+            }
+        }
+    }
+    .popular_card{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-bottom: 56px;
+        .popular_box{
+            position: relative;
+            text-align: left;
+            width: 360px;
+            height: 503px;
+            padding: 35px;
+            border: 1px solid #0000001A;
+            .procent_info{
+                font-family: Hind Siliguri;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 27px;
+                color: $primariy_color;
+            }
+            h2{
+                position: absolute;
+                bottom: 85px;
+                font-family: Hind Siliguri;
+                font-size: 25px;
+                font-weight: 600;
+                line-height: 40px;
+                color: $primariy_color;
+            }
+            > img{
+                border: none;
+            }
+            .popular_icons{
+                display: flex;
+                justify-content: space-between;
+            }
+            .price_info{
+                position: absolute;
+                bottom: 43px;
+                display: flex;
+                gap: 8px;
+                margin-top: 20px;
+                .original_price{
+                    font-family: Hind Siliguri;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 27px;
+                    color: $primariy_color;
+                }
+                .current_price{
+                    font-family: Hind Siliguri;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 27px;      
+                    color: $primariy_color;
+                    opacity: 50%;                
+                }
+            } 
+            .five_stars{
+                position: absolute;
+                bottom: 28px;
+                left: 0;
+                left: 35px;
+            }
+            .keyboard{
+                margin-top: 55px;
+            }
+            
+                
+        }
+    }
+    a{
+        font-family: Hind Siliguri;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 23px;
+        color: $primariy_color;
+        img{
+            margin-left: 10px;
+        }
+    }
+}

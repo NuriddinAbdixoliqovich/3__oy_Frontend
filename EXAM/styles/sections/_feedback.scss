@@ -1,0 +1,80 @@
+.feedback_section{
+    background: #F2F7FF80;
+    text-align: center;
+    color: $primary-color;
+    margin-bottom: 90px;
+    padding-bottom: 80px;
+}
+
+.feedback_container{
+    position: relative;
+    h1{
+        font-family: Gilroy;
+        font-size: 46px;
+        font-weight: 800;
+        line-height: 64px;
+        padding-bottom: 48px;
+    }
+    > img{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+.feedback_card{
+    display: flex;
+    gap: 30px;
+}
+
+.feedback_box{
+    background-color: $white-color;
+    padding: 32px;
+    h3{
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 8px;
+    }
+    p{
+        font-family: Gilroy;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
+
+.user_card{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0 32px;
+}
+
+.user_box{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.user_info{
+    text-align-last: left;
+    h4{
+        font-family: Gilroy;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    a{
+        font-family: Gilroy;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
+
+.user_circle{
+    display: flex;
+    justify-content: center;
+    gap: 12px;  
+}

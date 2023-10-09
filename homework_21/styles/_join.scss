@@ -1,0 +1,60 @@
+.join_section{
+    margin-bottom: 150px;
+}
+
+.join_card{
+    display: flex;
+    background-color: #02897A;
+    border-radius: 32px;
+}
+
+.join_box {
+    padding: 50px 0 0 50px; 
+}
+
+.join_box h1{
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    color: $white_color;
+}
+
+.join_box_btn{
+    padding: 13px 33px 7px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 48px;
+    color: $secondary-color;
+}
+
+.join_box_btn:hover{
+    background-color: $secondary-color;
+    color: $white_color;
+    transition: 0.2s all linear;
+}
+
+
+@media screen and (max-width: 768px) {
+    .join_container{
+        text-align: center;
+        margin: 0 32px;
+    }
+    .join_card{
+        display: flex;
+        flex-direction: column;
+    }
+    .join_box{
+        padding: 40px 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .join_container{
+        margin: 0 10px;
+    }
+}

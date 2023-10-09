@@ -1,0 +1,282 @@
+@font-face {
+    font-family: 'Fraunces';
+    src: url(/fonts/Fraunces_9pt/Fraunces_9pt_Soft-Black.ttf) format(truetype);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url(/fonts/Barlow/Barlow-Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url(/fonts/Barlow/Barlow-Bold.ttf) format(truetype);
+    font-weight: 700;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --main-white-color: #FEFCF7;
+    --main-black-color: #333D4B;
+}
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 43px 0;
+}
+
+.header_nav_menu{
+    display: flex;
+    gap: 32px;
+}
+
+.header_nav_link{
+    font-family: Barlow;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.9230769276618958px;
+    color:#83888F;
+}
+
+.header_nav_link:hover{
+    color: var(--main-black-color);
+    text-shadow: 1px 1px 1px gray;
+    transition: 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+.about_section{
+    background-image: url(/img/about_back_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 450px;
+    margin-bottom: 168px;
+}
+
+.about_section h1{
+    padding: 137px 0 24px 85px;
+    color: var(--main-white-color);
+    font-family: Fraunces;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.about_section p{
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--main-white-color);
+    padding-left: 85px;
+}
+
+
+
+
+
+
+
+.commit_container{
+    display: flex;
+    gap: 125px;
+    padding: 0 85px;
+    align-items: center;
+    margin-bottom: 256px;
+}
+
+.commit_container img{
+    width: 445px;
+    height: 520px;
+}
+
+.commit_container h1{
+    font-family: Fraunces;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    color: var(--main-black-color);
+    padding-bottom: 32px;
+}
+
+.commit_container p{
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 540px;
+    color: var(--main-black-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.quality_section{
+    background-image: url(/img/about_black_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 474px;
+    margin-bottom: 168px;
+}
+
+
+.quality_container{
+    padding: 88px 85px;
+    position: relative;
+    margin-bottom: 168px;
+}
+
+.quality_container h1{
+    font-family: Fraunces;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    color: var(--main-white-color);
+}
+
+.quality_container p{
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--main-white-color);
+    width: 540px;
+}
+
+.quality_container img{
+    position: absolute;
+    left: 750px;
+    bottom: 5px;
+}
+
+
+
+
+
+
+
+.country_container{
+    padding: 0 118px;
+    margin-bottom: 168px;
+}
+
+.country_container h2{
+    color: #83888F;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    margin-bottom: 72px;
+}
+
+.country_card{
+    display: flex;
+    gap: 95px;
+}
+.country_box{
+    width: 285px;
+}
+
+.country_box h1{
+    font-family: Fraunces;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    color: var(--main-black-color);
+    margin: 45px 0 24px;
+}
+
+.country_box p{
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--main-black-color);
+}
+
+
+
+
+
+
+.footer_container{
+    padding: 47px 85px;
+    background-color: #2C343E;
+    display: flex;
+    align-items: center;
+    color: #83888F;
+    margin-bottom: 88px;
+}
+
+.footer_nav_menu{
+    display: flex;
+    margin: 0 368px 0 102px;
+    gap: 32px;
+}
+
+.footer_nav_link {
+    font-family: Barlow;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.9230769276618958px;
+}
+
+.footer_icon{
+    display: flex;
+    gap: 24px;
+}
+
+
+.footer_nav_link:hover{
+    color: var(--main-white-color);
+    text-shadow: 1px 1px 1px gray;
+    transition: 0.3s ease;
+}

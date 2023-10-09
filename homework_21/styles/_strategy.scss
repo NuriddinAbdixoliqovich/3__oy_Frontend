@@ -1,0 +1,90 @@
+.strategy_section{
+    margin-bottom: 150px;
+}
+.strategy_container{
+    color: $primary-color;
+}
+
+.strategy_container{
+    h1{
+        font-family: Poppins;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 51px;
+    }
+    p{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        margin: 8px 0 33px;
+    }
+}
+
+
+
+.strategy_card{
+    display: flex;
+    gap: 31px;
+}
+
+
+
+.strategy_box{
+    border-radius: 8px;
+    border: 1px solid #DEDEDE;
+    p{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        padding: 0 0 12px 24px;
+    }
+    h2{
+        padding: 0 0 40px 24px;
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+}
+
+.circle_img{
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .strategy_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 33px;
+
+        p{
+            margin: 0;
+        }
+    }
+    .strategy_card{
+        display: grid;
+        grid-template-columns: 348px 348px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .strategy_container{
+        margin: 0;
+        p{
+            width: 349px;
+        }
+    }
+    .strategy_card{
+        display: flex;
+        flex-direction: column;
+    }
+}

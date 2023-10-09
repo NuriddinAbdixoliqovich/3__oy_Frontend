@@ -1,0 +1,85 @@
+.home_container{
+    position: relative;
+    margin-bottom: 110px;
+    h4{
+        font-family: Hind Siliguri;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0.145em;
+        color: #C72535;
+        text-transform: uppercase;
+        padding: 75px 0 3px;
+    }
+    .home_blue_title{
+        color: $btn_color;
+        font-family: Hind Siliguri;
+        font-size: 61px;
+        font-weight: 600;
+        line-height: 73px;
+    }
+    .home_title{
+        font-family: Hind Siliguri;
+        font-size: 61px;
+        font-weight: 400;
+        line-height: 73px;
+        color: $primariy_color;
+    }
+    p{
+        font-family: Hind Siliguri;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+        color: $primariy_color;
+        margin: 29px 0 36px;
+    }
+    .home_price{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        button{
+            font-family: Hind Siliguri;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 26px;
+            padding: 16px 35px;
+            border: none;
+            background-color: $btn_color;
+            color: $white_color;
+        }
+        .original_price{
+            font-family: Hind Siliguri;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 27px;
+            color: $primariy_color;
+        }
+        .current_price{
+            font-family: Hind Siliguri;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 27px;
+            opacity: 50%;
+            color: $primariy_color;
+            text-decoration: line-through;
+        }
+    }
+    .home_brands{
+        display: flex;
+        justify-content: center;
+        gap: 84px;
+        box-shadow: 0px -1.7396812438964844px 1.2053217887878418px 0px #AEAEAE06;
+        box-shadow: 0px 0.19007934629917145px 4.14346981048584px 0px #AEAEAE08;
+        box-shadow: 0px 6.772141456604004px 9.613308906555176px 0px #AEAEAE0A;
+        box-shadow: 0px 19.84010124206543px 19.140562057495117px 0px #AEAEAE0C;
+        box-shadow: 0px 43.750999450683594px 36.44142150878906px 0px #AEAEAE0F;
+        box-shadow: 0px 100px 80px 0px #AEAEAE14;
+        margin-top: 149px;
+    }
+    > img{
+        position: absolute;
+        left: 600px;
+        top: 0;
+    }   
+
+}

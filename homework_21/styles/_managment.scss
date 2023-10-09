@@ -1,0 +1,50 @@
+.managment_section{
+    margin-bottom: 150px;
+}
+.managment_card{
+    display: flex;
+    align-items: center;
+    gap: 84px;
+}
+
+
+.managment_box_img{
+    img{
+        width: 100%;
+    }
+}
+
+.managment_box{
+    color: $primary-color;
+    h4{
+        margin-bottom: 12px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    h1{
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        margin-bottom: 20px;
+    }
+    p{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        padding-bottom: 25px;
+        width: 470px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .managment_card{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+}

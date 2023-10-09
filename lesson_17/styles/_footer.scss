@@ -1,0 +1,53 @@
+.footer{
+    background-color: $primariy_color;
+    color: $white_color;
+    .footer_container{
+        padding: 76px 0 56px;
+        .footer_card{
+            display: flex;
+            gap: 70px;
+            .footer_box{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                gap: 15px;
+                .logo_info{
+                    margin-top: 22px;
+
+                }
+                h3{
+                    font-family: Hind Siliguri;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 26px;
+                }
+                a{
+                    font-family: Hind Siliguri;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 23px;    
+                    opacity: 60%;
+                }
+                p{
+                    opacity: 60%;
+                    font-family: Hind Siliguri;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 23px;
+                }
+                .footer_icons{
+                    display: flex;
+                    gap: 25px;
+                }
+                .footer_language{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    p{
+                        opacity: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

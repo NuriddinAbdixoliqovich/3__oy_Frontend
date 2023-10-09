@@ -1,0 +1,85 @@
+.home_section{
+    margin-bottom: 114px;
+    .home_container{
+        .home_card{
+            display: flex;
+            align-items: center;
+            .home_box{
+                width: 458px;
+                margin-right: 53px;
+                h1{
+                    font-family: Poppins;
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 60px;
+                    color: $primary-color;
+                }
+                p{
+                    font-family: Poppins;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    color: $primary-color;
+                    margin: 18px 0 40px;
+                }
+                .home_btn{
+                    display: flex;
+                    align-items: center;
+                    button{
+                        padding: 14px 41px;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 24px;
+                        background-color: $secondary-color;
+                        color: $white_color;
+                        border: none;
+                        border-radius: 5px;
+                    }
+                    button:hover{
+                        background-color: $white-color;
+                        color: $secondary-color;
+                        border: 1px solid #BCD0E5;
+                        transition: 0.2s all linear;
+                    }
+                    a{
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 24px;
+                        color: $secondary-color;
+                        text-decoration: underline;
+                    }
+                    img{
+                        margin: 0 8px 0 30px;
+                    }
+                }
+            }
+            .home_box_img{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 700px;
+        margin: 0 auto;
+    }
+    .home_card{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .home_box{
+        text-align: center;
+        width: 369px;
+    }
+    .home_box_img{
+        img{
+            width: 338px;
+        }
+    }
+}

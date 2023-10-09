@@ -1,0 +1,381 @@
+@font-face {
+    font-family: 'Fraunces';
+    src: url(/fonts/Fraunces_9pt/Fraunces_9pt_Soft-Black.ttf) format(truetype);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url(/fonts/Barlow/Barlow-Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url(/fonts/Barlow/Barlow-Bold.ttf) format(truetype);
+    font-weight: 700;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --main-white-color: #FEFCF7;
+    --main-black-color: #333D4B;
+}
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 43px 0;
+}
+
+.header_nav_menu{
+    display: flex;
+    gap: 32px;
+}
+
+.header_nav_link{
+    font-family: Barlow;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.9230769276618958px;
+    color:#83888F;
+}
+
+.header_nav_link:hover{
+    color: var(--main-black-color);
+    text-shadow: 1px 1px 1px gray;
+    transition: 0.3s ease;
+}
+
+
+
+
+.home_section{
+    background-image: url(/img/back_img.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 600px; 
+    border-radius: 10px;
+    margin-bottom: 136px;
+}
+
+
+.home_container{
+    padding-left: 85px;
+}
+
+.home_container h1{
+    padding-top: 117px;
+    font-family: Fraunces;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    color: var(--main-white-color);
+}
+
+.home_container p{
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--main-white-color);
+    padding: 32px 0 56px;
+}
+
+.home_container button{
+    background-color:#66D2CF;
+    padding: 16px 31px;
+    height: 56px;
+    font-family: Fraunces;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+    color: var(--main-white-color);
+    border-radius: 5px;
+    border: none;
+}
+
+.home_container button:hover{
+    background-color: var(--main-white-color);
+    color: #66D2CF;
+    transition: 0.5s ease;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+.item_section{
+    margin-bottom: 200px;
+
+}
+
+.item_container{
+    background-image: url(/img/our_collection.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+
+.item_card{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 126px;
+}
+
+.item_card h3{
+    padding: 72px 0 24px;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    color: var(--main-black-color);
+}
+
+.item_card p{
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--main-black-color);
+}
+
+
+
+
+
+.feature_section{
+    background-image: url(/img/black_back.png);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 577px;
+    margin-bottom: 351px;
+    color: var(--main-white-color);
+}
+
+.feature_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.feature_container h1{
+    padding: 100px 0 32px;
+    font-family: Fraunces;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.feature_container > p{
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    padding-bottom: 86px;
+}
+
+.feature_card{
+    display: flex;
+    gap: 30px;
+}
+
+
+.feature_box{
+    background-color:   #0E8784;
+    width: 350px;
+    height: 382px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.feature_box:hover{
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+
+.feature_box img{
+    padding: 72px 0 56px;
+}
+.feature_box:nth-child(3) > img{
+    padding-bottom: 79px;
+}
+
+
+.feature_box h3{
+    font-family: Fraunces;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    padding-bottom: 24px;
+}
+
+.feature_box p{
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.process_container{
+    padding: 0 117px;    
+}
+
+.process_container h3{
+    font-family: Fraunces;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    color: #83888F;
+}
+
+
+.process_circle{
+    margin: 80px 0 67px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.circle_second{
+    position: absolute;
+    left: 380px;
+}
+
+.circle_third{
+    position: absolute;
+    left: 760px;
+}
+
+
+.process_card{
+    display: flex;
+    gap: 95px;
+}
+
+.process_box h1{
+    font-family: Fraunces;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+
+.process_box h2{
+    font-family: Fraunces;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    color: var(--main-black-color);
+    margin: 38px 0 41px;
+}
+
+
+.process_box p{
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--main-black-color);
+}
+
+.process_btn{
+    margin: 64px 0 200px;
+    background-color:#66D2CF;
+    padding: 16px 31px;
+    height: 56px;
+    font-family: Fraunces;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+    color: var(--main-white-color);
+    border-radius: 5px;
+    border: none;
+}
+
+.process_btn:hover{
+    background-color: var(--main-white-color);
+    color: #66D2CF;
+    transition: 0.5s ease;
+    transform: scale(1.1);
+    border: 1px solid #66D2CF;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer_container{
+    padding: 47px 85px;
+    background-color: #2C343E;
+    display: flex;
+    align-items: center;
+    color: #83888F;
+    margin-bottom: 88px;
+}
+
+.footer_nav_menu{
+    display: flex;
+    margin: 0 368px 0 102px;
+    gap: 32px;
+}
+
+.footer_nav_link {
+    font-family: Barlow;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.9230769276618958px;
+}
+
+.footer_nav_link:hover{
+    color: var(--main-white-color); 
+    text-shadow: 1px 1px 1px gray;
+    transition: 0.3s ease;
+}
+
+.footer_icon{
+    display: flex;
+    gap: 24px;
+}
+
+
+

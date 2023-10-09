@@ -1,0 +1,44 @@
+.input_container{
+    background-image: url(/img/bg_tg_section.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    margin-bottom: 90px;
+    >img{
+        padding: 0 80px;
+    }
+}
+
+.input_box{
+    h2{
+        font-family: Gilroy;
+        font-size: 33px;
+        font-weight: 800;
+        line-height: 41px;
+        color: $white-color;
+        padding: 48px 0 32px;
+    }
+}
+
+.input_btn{
+    position: relative;
+    input{
+        width: 368px;
+        padding: 14px 0 14px 16px;
+        border: none;
+        border-radius: 3px 0 0 3px;
+    }
+    button{
+        padding: 12px 24px;
+        font-family: Gilroy;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        color: $white-color;
+        background-color: #18191F;
+        border: none;
+        position: absolute;
+        right: 38px;
+    }
+}

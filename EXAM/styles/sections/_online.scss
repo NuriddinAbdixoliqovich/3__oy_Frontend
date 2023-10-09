@@ -1,0 +1,51 @@
+.online_section{
+    background-color: #F2F7FF80;
+    color: $primary-color;
+    padding-bottom: 82px;
+    margin-bottom: 100px;
+}
+
+.online_card{
+    display: flex;
+    gap: 76px;
+}
+
+.online_box{
+    width: 522px;
+}
+
+.online_box {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    h1{
+        font-family: Gilroy;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 32px;
+        padding: 27px 0 20px;
+    }
+}
+
+
+.online_item{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.online_info{
+    h3{
+        font-family: Gilroy;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px;
+        padding-bottom: 8px;
+    }
+    p{
+        font-family: Gilroy;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
